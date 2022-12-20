@@ -70,8 +70,8 @@ impl Map {
             let w = rng.range(MIN_SIZE, MAX_SIZE);
             let h = rng.range(MIN_SIZE, MAX_SIZE);
     
-            let x = rng.roll_dice(1, 80 - h- 1) - 1;
-            let y = rng.roll_dice(1, 50 - h - 1) - 1;
+            let x = rng.roll_dice(1, 79 - h- 1) - 1;
+            let y = rng.roll_dice(1, 49 - h - 1) - 1;
     
             let new_room = Rect::new(x, y, w, h);
             let mut ok = true;
